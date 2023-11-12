@@ -1,0 +1,29 @@
+$ebony: #0f1624;
+$mine-shaft: #333333;
+$royal-blue: #5a50e2;
+$iron: #dfe0e1;
+$shark: #2c2f35;
+$white: #ffffff;
+
+$font-size-tiny: 14px;
+$font-size-base: 16px;
+$font-size-normal: 18px;
+$font-size-medium: 20px;
+$font-size-middle: 24px;
+$font-size-large: 28px;
+$font-size-enormous: 46px;
+$font-size-huge: 36px;
+
+$font-path: '../assets/fonts';
+
+$font-family-custom: 'Roboto';
+$font-family-default: 'Arial', 'Helvetica', sans-serif;
+$font-family: $font-family-custom, $font-family-default;
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+
+$screen-desktop: '(min-width: 1440px)';
+$screen-tablet: '(min-width: 768px)';
+
+$border-radius: 8px;

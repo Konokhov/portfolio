@@ -1,0 +1,17 @@
+@font-face {
+  $font-name: "Roboto-Regular";
+  font-family: $font-family-custom;
+  font-weight: 400;
+  font-style: normal;
+  src: url("#{$font-path}/roboto/#{$font-name}.woff") format("woff"),
+       url("#{$font-path}/roboto/#{$font-name}.woff2") format("woff2");
+}
+
+@font-face {
+  $font-name: "Roboto-Medium";
+  font-family: $font-family-custom;
+  font-weight: 500;
+  font-style: normal;
+  src: url("#{$font-path}/roboto/#{$font-name}.woff") format("woff"),
+       url("#{$font-path}/roboto/#{$font-name}.woff2") format("woff2");
+}
