@@ -7,8 +7,18 @@
   }
 }
 
+html {
+  height: 100vh;
+}
+
 body {
+  height: 100vh;
+
   font-family: $font-family;
+}
+
+#root {
+  height: 100vh;
 }
 
 h1,

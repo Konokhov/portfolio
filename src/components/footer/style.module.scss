@@ -1,0 +1,9 @@
+@import '../../styles/abstracts/variables';
+
+.footer {
+  height: $height-footer-mobile;
+
+  @media #{$screen-tablet} {
+    height: $height-footer-desktop;
+  }
+}

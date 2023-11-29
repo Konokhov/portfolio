@@ -1,0 +1,9 @@
+@import '../../styles/abstracts/variables';
+
+.header {
+  height: $height-header-mobile;
+
+  @media #{$screen-tablet} {
+    height: $height-header-desktop;
+  }
+}
