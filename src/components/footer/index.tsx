@@ -1,4 +1,4 @@
-import Container from '../container';
+import Container from '@components/container';
 import styles from './style.module.scss';
 
 function Footer() {
