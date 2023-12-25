@@ -1,0 +1,67 @@
+@import '@styles/abstracts/variables';
+
+.toggle {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+
+  border: 0;
+
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  font-size: 12px;
+
+  @media #{$screen-tablet} {
+    font-size: 14px;
+  }
+}
+
+.theme {
+  display: inline-flex;
+
+  padding: 3px;
+
+  background-color: var(--bg-toggle);
+
+  border-radius: 2em;
+}
+
+.label {
+  position: relative;
+}
+
+.control {
+  appearance: none;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+
+  width: 100%;
+  height: 100%;
+
+  cursor: pointer;
+}
+
+.control:checked + .text {
+  background-color: var(--royal-blue);
+  color: var(--text-toggle);
+}
+
+.text {
+  display: block;
+
+  border-radius: 2em;
+
+  padding: 3px 10px;
+
+  font-size: 12px;
+
+  @media #{$screen-tablet} {
+    font-size: 14px;
+  }
+}

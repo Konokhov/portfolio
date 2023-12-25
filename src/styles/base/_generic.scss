@@ -11,10 +11,26 @@ html {
   height: 100vh;
 }
 
+html[data-theme='dark'] {
+  --bg: var(--ebony);
+  --color-text: var(--white);
+  --bg-toggle: var(--mine-shaft);
+  --text-toggle: var(--color-text);
+}
+
+html[data-theme='light'] {
+  --bg: var(--white);
+  --color-text: var(--mine-shaft);
+  --bg-toggle: var(--iron);
+  --text-toggle: var(--white);
+}
+
 body {
   height: 100vh;
 
   font-family: $font-family;
+  background-color: var(--bg);
+  color: var(--color-text);
 }
 
 #root {
