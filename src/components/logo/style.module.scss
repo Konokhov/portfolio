@@ -1,0 +1,9 @@
+@import '@styles/abstracts/variables';
+
+.logo {
+  font-size: 18px;
+
+  @media #{$screen-tablet} {
+    font-size: 20px;
+  }
+}
