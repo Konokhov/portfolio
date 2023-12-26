@@ -1,6 +1,7 @@
 import {ChangeEvent} from 'react';
 import Container from '@components/container';
 import ThemeToggle from '@components/theme-toggle';
+import Social from '@components/social';
 import styles from './style.module.scss';
 
 interface FooterProps {
@@ -13,6 +14,9 @@ function Footer({toggleTheme, theme}: FooterProps) {
     <footer className={styles.footer}>
       <Container>
         <ThemeToggle toggleTheme={toggleTheme} theme={theme} />
+        <Social>
+          <Social.Github />
+        </Social>
       </Container>
     </footer>
   );

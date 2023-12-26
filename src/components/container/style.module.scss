@@ -1,6 +1,10 @@
 @import '@styles/abstracts/variables';
 
 .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   max-width: $width-container;
   height: 100%;
 

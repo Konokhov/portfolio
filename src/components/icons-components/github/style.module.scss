@@ -1,0 +1,13 @@
+@import '@styles/abstracts/variables';
+
+.github {
+  width: 20px;
+  height: 20px;
+  color: var(--icon-color);
+  cursor: pointer;
+
+  @media #{$screen-tablet} {
+    width: 25px;
+    height: 25px;
+  }
+}
