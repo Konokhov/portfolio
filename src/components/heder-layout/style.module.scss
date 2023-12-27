@@ -1,0 +1,9 @@
+@import '@styles/abstracts/variables';
+
+.layout {
+  display: none;
+
+  @media #{$screen-tablet} {
+    display: block;
+  }
+}

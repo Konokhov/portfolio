@@ -1,0 +1,23 @@
+@import '@styles/abstracts/variables';
+
+.navbar {
+}
+
+.list {
+  display: flex;
+  gap: 50px;
+}
+
+.item {
+}
+
+.link {
+  font-size: 16px;
+  font-family: $font-family;
+  font-weight: $font-weight-medium;
+  color: var(--color-text);
+
+  &:hover {
+    color: var(--royal-blue);
+  }
+}
