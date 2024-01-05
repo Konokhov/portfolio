@@ -1,5 +1,9 @@
-@import '@styles/abstracts/variables';
-
 .content {
   flex: 1 1 auto;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
