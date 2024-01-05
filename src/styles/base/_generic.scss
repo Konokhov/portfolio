@@ -17,6 +17,7 @@ html[data-theme='dark'] {
   --bg-toggle: var(--mine-shaft);
   --text-toggle: var(--color-text);
   --icon-color: var(--white);
+  --avatar-shadow: var(--white);
 }
 
 html[data-theme='light'] {
@@ -25,6 +26,7 @@ html[data-theme='light'] {
   --bg-toggle: var(--iron);
   --text-toggle: var(--white);
   --icon-color: var(--mine-shaft);
+  --avatar-shadow: var(--ebony);
 }
 
 body {
