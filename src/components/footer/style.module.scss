@@ -1,9 +1,9 @@
 @import '@styles/abstracts/variables';
 
 .footer {
-  height: $height-footer-mobile;
+  min-height: $height-footer-mobile;
 
   @media #{$screen-tablet} {
-    height: $height-footer-desktop;
+    min-height: $height-footer-desktop;
   }
 }
