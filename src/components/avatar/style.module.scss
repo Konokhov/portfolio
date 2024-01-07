@@ -16,8 +16,6 @@
   background-repeat: no-repeat;
   background-position: center center;
 
-  margin: 0 auto;
-
   border-radius: 50%;
 
   overflow: hidden;
@@ -29,8 +27,6 @@
   width: 100%;
   height: 100%;
 
-  color: tomato;
-
   cursor: pointer;
 }
 
@@ -39,8 +35,6 @@
   flex-direction: column;
   gap: 15px;
   text-align: center;
-
-  margin: 0 auto;
 
   @media #{$screen-tablet} {
     text-align: left;
