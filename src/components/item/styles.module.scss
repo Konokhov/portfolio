@@ -1,0 +1,44 @@
+@import '@styles/abstracts/variables';
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  width: 100%;
+
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 0px var(--avatar-shadow);
+
+  padding: 20px;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.description {
+  font-size: 18px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button {
+  background-color: var(--royal-blue);
+  color: white;
+
+  border: none;
+  border-radius: 10px;
+
+  padding: 5px;
+
+  cursor: pointer;
+
+  @media #{$screen-tablet} {
+    width: 200px;
+  }
+}

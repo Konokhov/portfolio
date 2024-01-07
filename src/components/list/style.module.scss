@@ -1,0 +1,10 @@
+@import '@styles/abstracts/variables';
+
+.list {
+  display: grid;
+  gap: 30px;
+
+  @media #{$screen-tablet} {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
