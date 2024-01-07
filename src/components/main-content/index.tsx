@@ -1,15 +1,17 @@
 import Avatar from '@components/avatar';
-import Container from '@components/container';
+import List from '@components/list';
+import Contacts from '@components/contacts';
+import MainLayout from '@components/main-layout';
 import styles from './style.module.scss';
 
 function MainContent() {
   return (
     <main className={styles.content}>
-      <div className={styles.layout}>
-        <Container>
-          <Avatar />
-        </Container>
-      </div>
+      <MainLayout>
+        <Avatar />
+        <List />
+        <Contacts />
+      </MainLayout>
     </main>
   );
 }
