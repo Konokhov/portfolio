@@ -1,4 +1,5 @@
-import {ChangeEvent} from 'react';
+import {ChangeEvent, useEffect} from 'react';
+import {useGetMockQuery} from '../store/mockapi/mock.api';
 import Footer from '@components/footer';
 import Header from '@components/header';
 import MainContent from '@components/main-content';
@@ -7,6 +8,7 @@ import useTheme from '../hooks/use-theme';
 
 function App() {
   const {theme, setTheme} = useTheme();
+  const {data = []} = useGetMockQuery('portfolio');
 
   const toggleTheme = (e: ChangeEvent<HTMLInputElement>) => {
     switch (e.target.value) {
@@ -21,6 +23,10 @@ function App() {
         break;
     }
   };
+
+  useEffect(() => {
+    console.log(data);
+  }, [data]);
 
   return (
     <PageLayout>
